@@ -41,7 +41,7 @@
             android:text="LOGIN" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/google_btn"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             tools:srcCompat="@drawable/googlelogo" />
