@@ -7,14 +7,16 @@
     tools:context=".Login" >
 
     <LinearLayout
-        android:layout_width="327dp"
-        android:layout_height="509dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="325dp"
+        android:layout_height="371dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.684">
+        app:layout_constraintVertical_bias="0.838">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/input_usuari"
@@ -38,5 +40,22 @@
             android:layout_height="wrap_content"
             android:text="LOGIN" />
 
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            tools:srcCompat="@drawable/googlelogo" />
+
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="286dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
