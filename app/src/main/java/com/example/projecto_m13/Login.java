@@ -69,10 +69,11 @@ public class Login extends AppCompatActivity {
             GoogleSignInAccount account = result.getSignInAccount();
             String displayName = account.getDisplayName();
             String email = account.getEmail();
-            // Puedes realizar acciones adicionales según tus necesidades
+
         } else {
             // Inicio de sesión con Google fallido
-            // Puedes manejar el error según tus necesidades
+            Intent intent = new Intent(Login.this, Login.class);
+            startActivity(intent);
         }
     }
 }

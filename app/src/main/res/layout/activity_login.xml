@@ -8,15 +8,14 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="325dp"
-        android:layout_height="371dp"
+        android:layout_width="297dp"
+        android:layout_height="195dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.838">
+        app:layout_constraintVertical_bias="0.626">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/input_usuari"
@@ -40,12 +39,6 @@
             android:layout_height="wrap_content"
             android:text="LOGIN" />
 
-        <ImageView
-            android:id="@+id/google_btn"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            tools:srcCompat="@drawable/googlelogo" />
-
     </LinearLayout>
 
     <ImageView
@@ -57,5 +50,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/google_btn"
+        android:layout_width="114dp"
+        android:layout_height="105dp"
+        android:background="@drawable/googlelogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.375" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
