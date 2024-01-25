@@ -6,4 +6,7 @@
     </style>
 
     <style name="Theme.Projecto_M13" parent="Base.Theme.Projecto_M13" />
+    <style name="SplashTheme" parent="Base.Theme.Projecto_M13">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
 </resources>
