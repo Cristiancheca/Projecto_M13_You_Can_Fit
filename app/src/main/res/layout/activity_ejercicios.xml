@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".Ejercicios">
 
+    <TextView
+        android:id="@+id/semana"
+        android:layout_width="169dp"
+        android:layout_height="40dp"
+        android:text="SEMANA 1"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <ScrollView
+        android:layout_width="405dp"
+        android:layout_height="644dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="86dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
