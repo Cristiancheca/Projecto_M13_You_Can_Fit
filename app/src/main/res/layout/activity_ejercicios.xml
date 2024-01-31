@@ -25,6 +25,49 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/dilluns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DILLUNS" />
+
+            <Button
+                android:id="@+id/dimarts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIMARTS" />
+
+            <Button
+                android:id="@+id/dimecres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIMECRES" />
+
+            <Button
+                android:id="@+id/dijous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIJOUS" />
+
+            <Button
+                android:id="@+id/divendres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIVENDRES" />
+
+            <Button
+                android:id="@+id/dissabte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DISSBTE" />
+
+            <Button
+                android:id="@+id/diumenge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIUMENGE" />
+        </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
