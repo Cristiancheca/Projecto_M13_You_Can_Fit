@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Ejercicios_dia extends AppCompatActivity {
+public class RepteSetmanal extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ejercicios_dia);
+        setContentView(R.layout.activity_repte_setmanal);
     }
 }
